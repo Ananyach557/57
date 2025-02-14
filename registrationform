@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-width,initial-scale="1.0">
+<title>user registration form</title>
+<style>
+body{
+font-family:Arial,sans-serif;
+margin:20px;
+}
+form
+{
+border:1px solid#ccc;
+padding:20px;
+width:300px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"]
+{
+width:100px;
+padding:10px;
+margin:5px 0;
+box_sizing:border-box;
+}
+input[type="submit"]
+{
+background_color:#45AF50;
+color:white;
+border:none;
+}
+input[type="submit"]:hover
+{
+background_color:#45a049;
+}
+</style>
+</head>
+<body>
+<h2>user registration form</h2>
+<form>
+<labelfor="name">Name:</label>
+<input type="text" id="name" name="name" required><br>
+<labelfor="email">Email:</label>
+<input type="email: name="email>required><br>
+<labelfor="phone">phone:</label>
+<inputtype="tel"id="phone" name="phone"required><br>
+<inputtype="submit" value="submit">
+</form>
+</body>
+</html>
